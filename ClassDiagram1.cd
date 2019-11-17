@@ -1,28 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="FundScraperFramework.Fund">
-    <Position X="0.75" Y="0.75" Width="1.5" />
+  <Class Name="FundScraperCore.Investments.FundInvestment" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAECAAIAAAgAAA=</HashCode>
-      <FileName>Fund.cs</FileName>
+      <HashCode>AAAAIAAaAAAAAAAAAAAAAAAAAAAAAAAUCAAIAAAAAAA=</HashCode>
+      <FileName>Investments\FundInvestment.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="_scraper" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="FundScraperFramework.Program">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+  <Class Name="FundScraperCore.Investments.FundInvestmentCollection">
+    <Position X="10" Y="0.5" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAQAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Investments\FundInvestmentCollection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="funds" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="FundScraperCore.Investments.RegionalInvestment" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAASAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgA=</HashCode>
+      <FileName>Investments\RegionalInvestment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FundScraperCore.Investments.Report">
+    <Position X="4.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAEEAABAAAAAAAAAAA=</HashCode>
+      <FileName>Investments\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FundScraperCore.Program">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAIAAgAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="consoleWriter" />
+      <Field Name="fileMethod" />
+    </ShowAsAssociation>
   </Class>
-  <Class Name="FundScraperFramework.Scraper">
-    <Position X="3.5" Y="3.75" Width="1.5" />
+  <Class Name="FundScraperCore.Scrapers.RegionScraper">
+    <Position X="2.25" Y="4" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAQQACAgAAAAAAAABAA=</HashCode>
-      <FileName>Scraper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>Scrapers\RegionScraper.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="FundScraperCore.Scrapers.Scraper">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAABAAAAAAAARAACAgIAAAAAAAAAA=</HashCode>
+      <FileName>Scrapers\Scraper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FundScraperCore.Scrapers.SectorScraper">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>Scrapers\SectorScraper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FundScraperCore.Utilities.ConsoleWriteMethod" Collapsed="true">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAKAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\ConsoleWriteMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FundScraperCore.Utilities.FileMethod" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAACAAAAAACAAQAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\FileMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FundScraperCore.Interfaces.IInvestable">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAASAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IInvestable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
