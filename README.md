@@ -1,17 +1,12 @@
-# HUOM, tarkastajalle
+# Pikaohje tarkastajalle
 
-* pikaohje, jotta saat ohjelman käyntiin:
-  * kloonaa repositorio
-  * avaa projekti visual studiolla -> luo /bin/debug-kansion
-  * kopioi repositorion juuresta input.json /bin/debug-kansioon (ohjelma tarvitsee input.json:n)
+* kloonaa repositorio
+* avaa projekti visual studiolla -> luo /bin/debug-kansion
+* kopioi projektin juuresta input.json /bin/debug-kansioon
 
 ## seuraavat Nuget-paketit pitää asentaa
 
-* Install-Package HtmlAgilityPack
-* Install-Package Newtonsoft.Json
+* (Visual Studio) -> Tools -> NuGet Package Manager -> Package Manager Console
+  * Install-Package HtmlAgilityPack
+  * Install-Package Newtonsoft.Json
 * tämän jälkeen ohjelman pitäisi saada ajettua
-
-## TODO
-
-* fix input/output
-* johonkin luokkaan testit
