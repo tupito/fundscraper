@@ -1,0 +1,38 @@
+[
+    {
+        "Name": "iShares Core S&P 500 UCITS ETF USD (Acc) (EUR)", 
+        "Code": "SXR8",
+        "Url": "http://www.morningstar.fi/fi/etf/snapshot/snapshot.aspx?id=0P0000OO21",
+        "OwningInCurrency": 1000
+    },
+    {
+        "Name": "Xtrackers Euro Stoxx 50 UCITS ETF 1C",
+        "Code": "DXET",
+        "Url": "http://www.morningstar.fi/fi/etf/snapshot/snapshot.aspx?id=0P0000HNXD",
+        "OwningInCurrency": 1000
+    },
+    {
+        "Name": "Nordnet Superfonden Danmark",
+        "Code": "NNDE",
+        "Url": "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8X",     
+        "OwningInCurrency": 1000
+    },
+    {
+        "Name": "Nordnet Superfonden Sverige",
+        "Code": "NNSE",
+        "Url": "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F000002J6V",    
+        "OwningInCurrency": 1000
+    },
+    {
+        "Name": "Nordnet Superfondet Norge",
+        "Code": "NNNO",
+        "Url": "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8U",      
+        "OwningInCurrency": 1000
+    },
+    {
+        "Name": "Nordnet Superrahasto Suomi",
+        "Code": "NNFI",
+        "Url": "http://www.morningstar.fi/fi/funds/snapshot/snapshot.aspx?id=F00000TH8W",
+        "OwningInCurrency": 1000
+    }
+]
