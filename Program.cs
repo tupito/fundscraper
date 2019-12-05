@@ -96,6 +96,9 @@ namespace FundScraperCore
 
                         break;
 
+                    case "q": // quit program
+                        break;
+
                     default:
                         Console.WriteLine("Invalid command");
                         break;

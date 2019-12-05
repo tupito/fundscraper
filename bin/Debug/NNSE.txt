@@ -1,0 +1,5 @@
+Euroalueen ulkopuolinen Eurooppa:94,5
+Euroalue:2,51
+Yhdistynyt kuningaskunta:2,38
+Latinalainen Amerikka:0,55
+Kehittyvä Aasia:0,06

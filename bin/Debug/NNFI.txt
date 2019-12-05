@@ -1,0 +1,5 @@
+Euroalue:99,52
+Euroalueen ulkopuolinen Eurooppa:0,48
+Yhdysvallat:0
+Kanada:0
+Latinalainen Amerikka:0

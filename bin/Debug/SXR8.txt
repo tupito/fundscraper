@@ -1,0 +1,5 @@
+Yhdysvallat:99,05
+Yhdistynyt kuningaskunta:0,55
+Euroalueen ulkopuolinen Eurooppa:0,32
+Kehittynyt Aasia:0,05
+Kehittyvä Eurooppa:0,03
